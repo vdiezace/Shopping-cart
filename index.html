@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=ç, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <header class="topheader">
+        <nav class="topnav">
+          <a href="#" class="logo">
+            <div>agoodshop</div>
+          </a>
+          <ul class="menu-container">
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Accesorios</a></li>
+            <li><a href="#">Soporte</a></li>
+            <li><a class="btn-navbar">Contactar</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="cart-body">
+        <div class="cart-main">
+          <ul class="cart-menu__options" id="cart-menu">
+            <li class="cart-menu__options-product">Producto</li>
+            <li class="cart-menu__options-quantity">Cantidad</li>
+            <li class="cart-menu__options-unity">Unidad</li>
+            <li class="cart-menu__options-total">Total</li>
+          </ul>
+          <div class="products" id="product-list">
+            <!-- Aquí va lista de productos -->
+          </div>
+        </div>
+
+        <div class="cart-side">
+          <div class="cart-summary">
+            <h3 class="cart-summary_title">Total</h3>
+          </div>
+          <div>
+            <div class="cart-summary__list" id="cart-list">
+              <!-- Aquí va lista de carrito con el precio total de cada producto -->
+            </div>
+            <div class="cart-total" id="cart-total">
+              <!-- Precio total de todo el carrito -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="carrito.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
